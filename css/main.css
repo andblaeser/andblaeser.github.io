@@ -48,7 +48,7 @@ a img {
 
 /* GLOBAL STYLES */
 html {
-  box-shadow: 0 0 0 30px #000 inset;
+  box-shadow: 0 0 0 30px #524C6E inset;
   padding: 0 30px;
 }
 body {
@@ -73,6 +73,7 @@ h1 {
 }
 h2 {
   font-size: 2em;
+  margin-bottom: 0.75em;
 }
 h4 {
   color: #999;
@@ -96,7 +97,7 @@ h2 ~ p {
 
 /* HEADER STYLES */
 .header {
-  background-color: #000;
+  background-color: #524C6E;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -137,7 +138,7 @@ h2 ~ p {
   color: #fff;
 }
 .header-logo {
-  background-color: #000;
+  background-color: #524C6E;
   box-sizing: border-box;
   display: block;
   height: 10vh;
@@ -247,7 +248,7 @@ h2 ~ p {
 
 /* FOOTER STYLES */
 .footer {
-  background-color: #000;
+  background-color: #524C6E;
   padding: 10vh 0 15vh;
   text-align: center;
 }
@@ -340,11 +341,11 @@ h2 ~ p {
   width: 0;
 }
 .hero-home {
-  background-image: url(/images/shark.jpg);
+  background-image: url(/images/large/keyboard.jpg);
   background-position: center top;
 }
 .hero-content {
-  color: #fff;
+  color: #C7D6EC;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -352,7 +353,7 @@ h2 ~ p {
   transform: translate(0, -50%);
 }
 .hero-content h1 {
-  color: rgba(255, 255, 255, 0.8);
+  color: #C7D6EC;
   font-size: 7vw;
   margin-bottom: 0.25em;
 }
