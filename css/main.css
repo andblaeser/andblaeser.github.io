@@ -48,7 +48,7 @@ a img {
 
 /* GLOBAL STYLES */
 html {
-  box-shadow: 0 0 0 30px #2B3258 inset;
+  box-shadow: 0 0 0 30px #040404 inset;
   padding: 0 30px;
 }
 body {
@@ -97,8 +97,8 @@ h2 ~ p {
 
 /* HEADER STYLES */
 .header {
-  background-color: #2B3258;
-  color: #fff;
+  background-color: #040404;
+  color: #F3FDF9;
   position: fixed;
   width: 100%;
   z-index: 20;
@@ -117,7 +117,7 @@ h2 ~ p {
 }
 .header-nav a,
 .drop-trigger {
-  color: #fff;
+  color: #F3FDF9;
 }
 .nav-links a,
 .drop-trigger,
@@ -129,16 +129,16 @@ h2 ~ p {
 }
 .nav-links a:hover,
 .nav-links a:active {
-  color: #ed6e2f;
+  color: #6E88B9;
 }
 .header-nav > li:first-child a {
-  color: #ed6e2f;
+  color: #6E88B9;
 }
 .header-nav > li:first-child a:hover {
-  color: #fff;
+  color: #F3FDF9;
 }
 .header-logo {
-  background-color: #2B3258;
+  background-color: #040404;
   box-sizing: border-box;
   display: block;
   height: 10vh;
@@ -154,7 +154,7 @@ h2 ~ p {
 }
 .header-logo:hover,
 .header-logo:active {
-  background-color: #ed6e2f;
+  background-color: #6E88B9;
 }
 
 /* DROPDOWN STYLES */
@@ -165,7 +165,7 @@ h2 ~ p {
   display: block;
 }
 .dropdown:hover .drop-trigger:after {
-  border-color: #ed6e2f transparent transparent;
+  border-color: #6E88B9 transparent transparent;
 }
 .drop-trigger {
   display: inline-block;
@@ -174,7 +174,7 @@ h2 ~ p {
 }
 .drop-trigger:after {
   border: 0.3em solid;
-  border-color: #fff transparent transparent;
+  border-color: #F3FDF9 transparent transparent;
   content: "";
   height: 0;
   position: absolute;
@@ -193,7 +193,7 @@ h2 ~ p {
 }
 .drop-menu:before {
   border: 0.6em solid;
-  border-color: transparent transparent #fff;
+  border-color: transparent transparent #F3FDF9;
   content: "";
   height: 0;
   position: absolute;
@@ -202,7 +202,7 @@ h2 ~ p {
   width: 0;
 }
 .drop-menu li {
-  background-color: #fff;
+  background-color: #F3FDF9;
 }
 .drop-menu li ~ li {
   border-top: 1px dotted rgba(0, 0, 0, 0.1);
@@ -248,7 +248,7 @@ h2 ~ p {
 
 /* FOOTER STYLES */
 .footer {
-  background-color: #2B3258;
+  background-color: #040404;
   padding: 10vh 0 15vh;
   text-align: center;
 }
@@ -256,7 +256,7 @@ h2 ~ p {
   width: 50px;
 }
 .footer h3 {
-  color: #fff;
+  color: #F3FDF9;
   padding-top: 1.5em;
   text-transform: uppercase;
 }
@@ -326,26 +326,14 @@ h2 ~ p {
   background-color: #2B3258;
   background-size: cover;
   box-sizing: border-box;
-  height: 90vh;
-}
-.full-hero:after {
-  border: 10px solid;
-  border-color: #fff transparent transparent;
-  bottom: 2vh;
-  color: #fff;
-  content: "";
-  height: 0;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, 0);
-  width: 0;
+  height: 75vh;
 }
 .hero-home {
   background-image: linear-gradient( rgba(13,15,17,.5), rgba(13,15,17,.5) ), url(/images/large/keyboard.jpg);
   background-position: center top;
 }
 .hero-content {
-  color: #C7D6EC;
+  color: #F3FDF9;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -353,7 +341,7 @@ h2 ~ p {
   transform: translate(0, -50%);
 }
 .hero-content h1 {
-  color: #C7D6EC;
+  color: #F3FDF9;
   font-size: 7vw;
   margin-bottom: 0.25em;
 }
@@ -363,7 +351,7 @@ h2 ~ p {
 }
 .hero-content .social-link:hover {
   background-color: #000;
-  color: #fff;
+  color: #F3FDF9;
 }
 .half-hero {
   background-position: center center;
@@ -376,7 +364,7 @@ h2 ~ p {
   background: rgba(150, 150, 150, 0.5);
   border-radius: 99px;
   box-sizing: border-box;
-  color: #fff;
+  color: #F3FDF9;
   display: inline-block;
   font-family: helvetica, arial, sans;
   font-size: 1.7em;
@@ -422,8 +410,8 @@ h2 ~ p {
 }
 .home-callout {
   align-items: center;
-  background-color: #000;
-  color: #fff;
+  background-color: #040404;
+  color: #F3FDF9;
   display: flex;
   padding: 7vh 0;
 }
@@ -456,7 +444,7 @@ h2 ~ p {
   width: 33%;
 }
 .bio-box h3 {
-  color: #fff;
+  color: #F3FDF9;
   font-size: 1.5em;
   margin: -40px 0 1em;
   text-align: center;
@@ -642,7 +630,7 @@ h2 ~ p {
     margin-bottom: 1em;
   }
   .header-nav li:first-child a {
-    color: #fff;
+    color: #F3FDF9;
   }
   /* HIDE DROPDOWN IN THE NAV MENU */
   .header-nav .dropdown:hover .drop-menu,
