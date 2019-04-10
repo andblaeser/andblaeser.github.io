@@ -69,10 +69,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
   font-size: 7vw;
+  font-weight: bold;
   margin-top: 0;
 }
 h2 {
   font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
   margin-bottom: 0.75em;
 }
 h4 {
@@ -333,7 +336,7 @@ h2 ~ p {
   background-position: center top;
 }
 .hero-content {
-  color: #F3FDF9;
+  color: #6e88b9;
   position: relative;
   text-align: center;
   text-transform: uppercase;
