@@ -48,7 +48,7 @@ a img {
 
 /* GLOBAL STYLES */
 html {
-  box-shadow: 0 0 0 30px #524C6E inset;
+  box-shadow: 0 0 0 30px #2B3258 inset;
   padding: 0 30px;
 }
 body {
@@ -97,7 +97,7 @@ h2 ~ p {
 
 /* HEADER STYLES */
 .header {
-  background-color: #524C6E;
+  background-color: #2B3258;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -138,7 +138,7 @@ h2 ~ p {
   color: #fff;
 }
 .header-logo {
-  background-color: #524C6E;
+  background-color: #2B3258;
   box-sizing: border-box;
   display: block;
   height: 10vh;
@@ -248,7 +248,7 @@ h2 ~ p {
 
 /* FOOTER STYLES */
 .footer {
-  background-color: #524C6E;
+  background-color: #2B3258;
   padding: 10vh 0 15vh;
   text-align: center;
 }
@@ -323,7 +323,7 @@ h2 ~ p {
 
 /* HERO STYLES */
 .full-hero {
-  background-color: #c7dbfc;
+  background-color: #2B3258;
   background-size: cover;
   box-sizing: border-box;
   height: 90vh;
@@ -341,7 +341,7 @@ h2 ~ p {
   width: 0;
 }
 .hero-home {
-  background-image: url(/images/large/keyboard.jpg);
+  background-image: linear-gradient( rgba(13,15,17,.5), rgba(13,15,17,.5) ), url(/images/large/keyboard.jpg);
   background-position: center top;
 }
 .hero-content {
