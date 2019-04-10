@@ -648,7 +648,7 @@ h2 ~ p {
   }
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: #000;
-    color: #ed6e2f;
+    color: #6e88b9;
     content: "CLOSE";
     left: 0;
     position: absolute;
