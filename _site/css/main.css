@@ -447,6 +447,7 @@ td, th {
 td {
   font-size: 1em;
   text-align: center;
+  color: #e5e5e5;
 }
 
 td:first-child {
@@ -454,12 +455,14 @@ td:first-child {
   font-size: 1.5em;
   color: #A48B77;
   text-align: left;
+  font-style: italic;
 }
 
 h3 {
   color: #a48b77;
   font-weight: bold;
   font-size: 2em;
+  font-style: italic;
 }
 
 /* BIO STYLES */
