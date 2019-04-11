@@ -25,53 +25,64 @@ description: The home page for Andrew Blaeser's personal portfolio site.
   </div>
 
   <div class="home-callout">
-    <h1 class="callout-title">The Learn Enough Story</h1>
+    <h1 class="callout-title">Where I've Been And<br>Where I'm Going</h1>
     <div class="callout-copy">
       <p>
-        Learn Enough to Be Dangerous is a leader in the movement to teach the
-        world <em>technical sophistication</em>, which includes both "hard
-        skills" like coding, command lines, and version control, and "soft
-         skills" like guessing keyboard shortcuts, Googling error messages, and
-        knowing when to just reboot the darn thing.
+        I'm a multimedia professional looking to make a career change into web/software development. I've spent the past 9 years working in television stations and recording studios creating professional quality media for thousands of people to consume. Now I want to combine that experience with a newfound passion for programming to create high quality products that can change people's lives. I have worked primarily in Python, including the Django web framework, and HTML/CSS, but I also have experience with JavaScript, Ruby and SQL, and am constantly learning something new. I am hungry, and eager to find a situation where I can continue to learn and contribute to a great company.
       </p>
-      <p>
-        We believe there are <strong>at least a billion people</strong> who can
-        benefit from learning technical sophistication, probably more. To join
-        our movement,
-        <a href="https://learnenough.com/#email_list">sign up for our official
-        email list</a> now.
-      </p>
-      <h3>Background</h3>
-      <p>
-        Learn Enough to Be Dangerous is an outgrowth of the
-        <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> and the
-        <a href="http://www.softcover.io/">Softcover publishing platform</a>.
-        This page is part of the sample site for
-        <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and
-        Layout to Be Dangerous</em></a>, which teaches the basics of
-        <strong>C</strong>ascading <strong>S</strong>tyle
-        <strong>S</strong>heets, the language that allows web pages to be styled.
-        Other related tutorials can be found at
-        <a href="https://learnenough.com/">learnenough.com</a>.
-      </p>
+      <div class="callout-skills">
+        <table width="100%" cellpadding="4" cellspacing="3">
+          <tr>
+            <th colspan="5">
+              <h3>Skills</h3>
+            </th>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Django</td>
+            <td>Pandas</td>
+            <td>Matplotlib</td>
+          </tr>
+          <tr>
+            <td>HTML/CSS</td>
+            <td>Jekyll</td>
+            <td>Heroku</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Node.js</td>
+          </tr>
+          <tr>
+            <td>Ruby</td>
+            <td>Rails</td>
+          </tr>
+          <tr>
+            <td>Other</td>
+            <td>Git</td>
+            <td>SQL</td>
+          </tr>
+          <tr>
+            <td>Pro Audio</td>
+            <td>Pro Tools</td>
+            <td>Ableton</td>
+            <td>Adobe Audition</td>
+            <td>Logic Pro</td>
+          </tr>
+          <tr>
+            <td>Video Production</td>
+            <td>Adobe Premiere</td>
+            <td>Final Cut Pro</td>
+            <td>Edius</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
 
   <div class="home-section">
-    <h4>Most recent post</h4>
-    {% for post in site.posts limit:1 %}
-      {% include post-excerpt.html %}
-    {% endfor %}
-
-  </div>
-
-  <div class="home-section">
-    <h2>THE FOUNDERS</h2>
+    <h2>My Projects</h2>
     <p>
-      Learn Enough to Be Dangerous was founded in 2015 by Michael Hartl, Lee Donahoe,
-      and Nick Merwin. We believe that the kind of technical sophistication taught by
-      the Learn Enough tutorials can benefit at least a billion people, and probably
-      more.
+      Here are some examples of work I've done in the past.
     </p>
 
     <div class="bio-wrapper">
@@ -129,4 +140,12 @@ description: The home page for Andrew Blaeser's personal portfolio site.
       </div>
     </div>
   </div>
+  
+  <div class="home-section">
+    <h4>Most recent post</h4>
+    {% for post in site.posts limit:1 %}
+      {% include post-excerpt.html %}
+    {% endfor %}
+  </div>
+  
 </div>

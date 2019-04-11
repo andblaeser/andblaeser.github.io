@@ -430,6 +430,37 @@ h2 ~ p {
   padding: 0 3vw;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-weight: bold;
+}
+
+th {
+  border: 1px solid black;
+}
+
+td, th {
+  height: 20px;
+}
+
+td {
+  font-size: 1em;
+  text-align: center;
+}
+
+td:first-child {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #A48B77;
+  text-align: left;
+}
+
+h3 {
+  color: #a48b77;
+  font-weight: bold;
+  font-size: 2em;
+}
 
 /* BIO STYLES */
 .bio-wrapper {
